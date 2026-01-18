@@ -1,0 +1,28 @@
+.errorContainer {
+  max-width: 600px;
+  margin: 8rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.errorContainer h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.errorContainer a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #1976d2;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.errorContainer a:hover {
+  background-color: #1565c0;
+}

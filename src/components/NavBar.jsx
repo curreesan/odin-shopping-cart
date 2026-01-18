@@ -1,8 +1,10 @@
-// src/components/NavBar.jsx
 import { Link } from "react-router";
+import { useCart } from "../context/CartContext";
 import styles from "../styles/NavBar.module.css";
 
 function NavBar() {
+  const { getCartCount } = useCart();
+
   return (
     <nav className={styles.nav}>
       <ul className={styles.list}>
@@ -18,7 +20,7 @@ function NavBar() {
         </li>
         <li>
           <Link to="/cart" className={styles.link}>
-            Cart
+            Cart ({getCartCount()})
           </Link>
         </li>
       </ul>
