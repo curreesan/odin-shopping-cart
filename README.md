@@ -1,16 +1,19 @@
-# React + Vite
+# Odin Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional shopping cart application built as part of [The Odin Project](https://www.theodinproject.com/lessons/node-path-react-new-shopping-cart) React course.
 
-Currently, two official plugins are available:
+Modern React project featuring real API data, context-based state management, responsive design, and smooth client-side routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+🌐 **https://odin-shopping-cart-rose.vercel.app/**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Real product data fetched from [Fake Store API](https://fakestoreapi.com/)
+- Responsive product grid
+- Persistent shopping cart using React Context
+- Add / update / remove items from cart
+- Dynamic cart item count in navigation bar
+- React Router for SPA navigation (Home / Shop / Cart)
+- Error page & proper 404 handling
